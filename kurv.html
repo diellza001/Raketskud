@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raketskud</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">
+        <a href="#">Raketskud</a>
+    </div>
+    <div class="menu-toggle" id="mobile-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Forside</a></li>
+        <li><a href="tilbud.html">Tilbud</a></li>
+        <li><a href="kampagne.html">Kampagne</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="kurv.html">Kurv</a></li>
+    </ul>
+</nav>
+
+<section>
+    <section class="kurv-container">
+        <h1>Kurv</h1>
+        <div class="kurv">
+            <!-- Venstre side med varer -->
+            <div class="kurv-varer">
+                <!-- Første vare -->
+                <div class="kurv-item">
+                    <img src="images/Pyrodelic.png" alt="Varebillede">
+                    <div class="vare-info">
+                        <p>Vare</p>
+                        <p>Pris: 100kr</p>
+                        <div class="antal-container">
+                            <button>-</button>
+                            <input type="text" value="1">
+                            <button>+</button>
+                        </div>
+                        <p>Subtotal: 100kr</p>
+                    </div>
+                    <button class="slet">🗑</button>
+                </div>
+
+                <!-- Anden vare -->
+                <div class="kurv-item">
+                    <img src="images/12038b_default-removebg-preview.png" alt="Varebillede">
+                    <div class="vare-info">
+                        <p>Vare</p>
+                        <p>Pris: 79kr</p>
+                        <div class="antal-container">
+                            <button>-</button>
+                            <input type="text" value="1">
+                            <button>+</button>
+                        </div>
+                        <p>Subtotal: 79kr</p>
+                    </div>
+                    <button class="slet">🗑</button>
+                </div>
+            </div>
+
+            <!-- Højre side med kurv total -->
+            <div class="kurv-total">
+                <h2>Kurv total</h2>
+                <p>Subtotal: <span>179,00kr</span></p>
+                <div class="forsendelse">
+                    <label>
+                        <input type="radio" name="levering" checked> Hjemmelevering: gratis
+                    </label>
+                    <label>
+                        <input type="radio" name="levering"> Afhentning i butik - Nykøbing
+                    </label>
+                </div>
+                <p>Total: <span>179,00kr</span></p>
+                <button class="betaling-btn">Gå til betaling</button>
+            </div>
+        </div>
+    </section>
+</section>
+
+
+
+
+<footer class="footer">
+    <div class="footer-section">
+        <img src="images/Mascot-removebg-preview.png" alt="Raketskud logo" class="footer-logo">
+        <p>Raketskud bringer det bedste fyrværkeri til Danmark – vi skaber lys, glæde og magiske øjeblikke for alle. </p>
+        <div class="social-icons">
+            <a href="#" class="social-icon"><img src="images/174848.png" alt="Facebook"></a>
+            <a href="#" class="social-icon"><img src="images/insta.png" alt="Instagram"></a>
+        </div>
+    </div>
+    <div class="footer-section">
+        <h3>Informationer</h3>
+        <p><strong>E-mail:</strong> <a href="mailto:support@raketskud.dk">support@raketskud.dk</a></p>
+        <p><strong>Telefon:</strong> +45 55 44 35 78</p>
+        <p><strong>Adresse:</strong> Gadevej 30, 4500 Nykøbing</p>
+    </div>
+    <div class="footer-section">
+        <h3>Sikker online betaling</h3>
+        <div class="payment-icons">
+            <img src="images/196578.png" alt="Visa">
+            <img src="images/5977576.png" alt="Apple Pay">
+            <img src="images/888870.png" alt="PayPal">
+        </div>
+    </div>
+</footer>
+
+</section>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
